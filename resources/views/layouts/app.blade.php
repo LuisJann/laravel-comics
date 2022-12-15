@@ -12,8 +12,11 @@
 
 <body>
     @include('partials.header')
+    @include('partials.banner')
     <main>
         @yield('content')
+        <section>
+        </section>
     </main>
     @include('partials.footer')
 </body>
